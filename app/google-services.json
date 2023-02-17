@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414462434704",
+    "project_id": "rk-whatsapp-45ca1",
+    "storage_bucket": "rk-whatsapp-45ca1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414462434704:android:5e9fc2bee9bbb86959a715",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414462434704-okggfv9mhrigq174urc0f9dsgkddfqi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Nzr77zmTFdia1XcXbi29B8cxbJhwxOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414462434704-okggfv9mhrigq174urc0f9dsgkddfqi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
