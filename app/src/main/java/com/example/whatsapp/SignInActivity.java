@@ -25,6 +25,9 @@ public class SignInActivity extends AppCompatActivity {
         binding=ActivitySignInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        //To hide the action bar in sign in page
+        getSupportActionBar().hide();
+
         auth=FirebaseAuth.getInstance();
         progressDialog = new ProgressDialog(SignInActivity.this);
         progressDialog.setTitle("Login");
@@ -50,6 +53,13 @@ public class SignInActivity extends AppCompatActivity {
                                 }
                             }
                         });
+            }
+        });
+        binding.tvClickSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SignInActivity.this, SignUpActivity.class);
+                startActivity(intent);
             }
         });
         if(auth.getCurrentUser()!=null)
